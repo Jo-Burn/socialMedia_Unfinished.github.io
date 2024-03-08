@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitter clone/your Page</title>
+    <link rel="stylesheet" href="twitClon.css" />
+    <script src="twitCloneYourPage.js" defer></script>
+    <link rel="shortcut icon" href="chatBubble.htm" type="image/x-icon">
+</head>
+<body>
+  <form name="signForm"></form>
+    <div id="navbar">
+        <p>Convo</p>
+        <nav>
+          <a class="nav" id="signInA" href="index.html">Sign Up/Log In</a>
+          <a class="nav" id="yourPageA" href="yourPage.html">Your Page</a>
+          <a class="nav" id="allPosts" href="index.html">Posts</a>
+        </nav>
+        
+    </div>
+    <div id="aboutYou">
+     <p>Create a Post:</p>
+     <div id="divButton">
+      <button id="descibeButton" onclick="classHide()" class="above">Post?</button>
+     </div>
+     <div id="input" class="hide">
+      <textarea rows="5" cols="50" id="text" autocomplete="off" type="text" class="above"></textarea>
+      <input type="submit" onclick="classHide()" value="Finished?" class="above" />
+     </div>
+          
+    </div>
+    <div id="allYourPosts">
+     <p>Past Posts</p>
+    </div>
+    <div id="oldPost">
+      <p id="oldPostWord">Your Last Post:</p>
+      <div id="postBox">
+        <div id="yourself">
+          <table></table>
+         </div>
+      </div>
+    </div>
+</body>
+</html>

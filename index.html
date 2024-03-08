@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twitter clone sign in</title> <!--Sorry, X-->
+    <link rel="stylesheet" href="twitClon.css" />
+    <script src="twitClone.js" defer></script>
+    <link rel="shortcut icon" href="chatBubble.htm" type="image/x-icon">
+</head>
+<!--Sign in-->
+<body>
+ <div id="navbar">
+  <p>Convo</p>
+  <nav>
+    <a class="nav" id="signInA" href="index.html">Sign Up/Log In</a>
+    <a class="nav" id="yourPageA" href="index.html">Your Page</a>
+    <a class="nav" id="allPosts" href="index.html">Posts</a>
+  </nav>
+ </div>   
+ <div id="info">
+    <form name="signForm">
+     <p id="above">Username:</p>
+     <input type="text" name="name" id="username" autofocus autocomplete="off">
+     <p>Enter Your Password:</p>
+     <input type="password" placeholder="Password" autocomplete="off" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" id="password">
+     <button class="push" onclick="check()">Enter</button>
+     <p class="small">First time here? <a href="signUp.html">Create an acount.</a></p>
+    </form>
+ </div>
+</body>
+</html>

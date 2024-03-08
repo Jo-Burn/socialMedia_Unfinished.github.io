@@ -1,0 +1,140 @@
+body {
+    background-color: none;
+}
+#navbar {
+    font-size: 25px;
+    background-color: black;
+    position: relative;
+    bottom: 2.5vh;
+    height: 8vh;
+}
+#navbar a {
+  position: relative;
+  bottom: .1vh;
+}
+#navbar p {
+    position: relative;
+    top: 2vh;
+    background-color: blue;
+    width: 70px;
+}
+nav {
+    position: relative;
+    left: 8vw;
+    bottom: 2.9vh;
+    width: 800px;
+}
+.small {
+    font-size: 15px;
+}
+.nav {
+    display: block;
+    padding: 8px;
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    display: inline;
+}
+.nav:hover {
+    background-color: gray;
+}
+#info {
+    position: relative;
+    top: 20vh;
+    left: 40vw;
+    font-size: 23px;
+    width: 500px;
+    height: 500px;
+}
+#above {
+    position: relative;
+    top: 1.5vh;
+}
+#email {
+    position: relative;
+    /*top: 9vh*/
+    /*right: 11.5vw;*/
+}
+#aboutYou {
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    position: relative;
+    left: 3vw;
+    width: 25vw;
+    height: 50vh;
+}
+#aboutYou p {
+    position: relative;
+    left: 2vw;
+    font-size: 20px;
+}
+#aboutYou button {
+    font-size: 15;
+    width: 10vw;
+    height: 3vh;
+    position: relative;
+    /*left: 7vw;*/
+}
+#allYourPosts {
+    border: 3px;
+    border-style: solid;
+    border-color: grey;
+    position: relative;
+    left: 35vw;
+    top: -50.5vh;
+    width: 25vw;
+    height: 50vh;
+}
+#oldPost {
+    border: 3px;
+    border-style: solid;
+    border-color: aqua;
+    position: relative;
+    left: 70vw;
+    top: -101vh;
+    width: 25vw;
+    height: 50vh;
+    font-size: 20px;
+}
+#oldPostWord {
+    position: relative;
+    left: 2vw;
+}
+#postBox {
+    background-color: grey;
+    width: 24vw;
+    height: 43vh;
+    border-radius: 25px;
+    position: relative;
+    left: .5vw;
+}
+#postBox p {
+    position: relative;
+    left: 1.5vw;
+    top: 2vh;
+}
+#input {
+ position: relative;
+ top: -3.5vh;
+}
+.hide {
+    position: relative;
+    left: -200%;
+    overflow: hidden;
+    width: 25px;
+}
+#yourself {
+    font-size: medium;
+    position: relative;
+    top: 2vh;
+    left: 1vw;
+    width: 20vw;
+    height: 40vh;
+    word-wrap: break-word;
+    overflow: scroll;
+}
+.above {
+    z-index: 1;
+    position: relative;
+}
